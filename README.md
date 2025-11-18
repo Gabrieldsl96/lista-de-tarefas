@@ -2,6 +2,8 @@
 
 Uma aplicação simples e elegante de lista de tarefas (To-Do List) desenvolvida com Next.js, React e TypeScript.
 
+🔗 **[Acesse o site aqui](https://lista-de-tarefas.gbcmtecnologia.com.br/)**
+
 ## 🚀 Tecnologias
 
 - **Next.js 14+** - Framework React para produção
