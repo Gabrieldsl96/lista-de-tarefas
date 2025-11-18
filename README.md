@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Lista de Tarefas
 
-## Getting Started
+Uma aplicação simples e elegante de lista de tarefas (To-Do List) desenvolvida com Next.js, React e TypeScript.
 
-First, run the development server:
+## 🚀 Tecnologias
 
+- **Next.js 14+** - Framework React para produção
+- **React 18+** - Biblioteca JavaScript para interfaces
+- **TypeScript** - Superset JavaScript com tipagem estática
+- **Tailwind CSS** - Framework CSS utilitário
+
+## ✨ Funcionalidades
+
+- ✅ Adicionar novas tarefas
+- ✅ Marcar tarefas como concluídas
+- ✅ Interface responsiva e moderna
+- ✅ Suporte para Enter (teclado principal, numérico e mobile)
+- ✅ Animações visuais ao marcar tarefas
+
+## 🎯 Como Usar
+
+### Pré-requisitos
+
+- Node.js 18+ instalado
+- npm, yarn ou pnpm
+
+### Instalação
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/seu-usuario/lista-de-tarefas.git
+cd lista-de-tarefas
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
+```bash
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Execute o projeto em modo de desenvolvimento:
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador
 
-## Learn More
+## 📁 Estrutura do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+```
+├── app/
+│   └── page.tsx              # Página principal
+├── components/
+│   ├── AddArea/
+│   │   └── index.tsx         # Componente de adicionar tarefa
+│   └── ListItem/
+│       └── index.tsx         # Componente de item da lista
+├── types/
+│   └── item.ts               # Tipagem TypeScript
+└── README.md
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contribuindo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
 
-## Deploy on Vercel
+1. Faça um Fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
+4. Push para a branch (`git push origin feature/MinhaFeature`)
+5. Abra um Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Gabriel Lemos**(https://github.com/seu-usuario)
+
+---
+
+⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!
