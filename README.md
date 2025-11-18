@@ -85,7 +85,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Gabriel Lemos**(https://github.com/seu-usuario)
+Desenvolvido por **Gabriel Lemos**
 
 ---
 
